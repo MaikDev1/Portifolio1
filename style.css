@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+
+body {
+  background: linear-gradient(to left, #fff, #752111);
+  margin: 0;
+  padding: 0;
+}
+
+.div2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.div1 {
+  font-family: "Rampart One", cursive;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mim {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 50px;
+  font-family: "Rampart One", cursive;
+  text-align: center;
+}
+
+.ooi {
+  color: #000000;
+}
+
+.mim2 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.titulo-1 {
+  margin-bottom: 40px;
+}
+
+.hcj {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.mk3 {
+  margin-left: 30px;
+  margin-top: 40px;
+  border: solid 1px white;
+}
+
+.color1 {
+  color: black;
+}
+
+header {
+  padding: 20px;
+}
+
+h1,
+h3,
+h2 {
+  margin: 0;
+}
+
+.titulo {
+  border-radius: 10px;
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.maik {
+  margin-right: 100px;
+}
+.sobre {
+  margin: 20px;
+  font-weight: 900;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+form input[type="submit"] {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+}
+
+footer {
+  background-color: #333;
+}
+
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7 {
+  font-family: "Rampart One", cursive;
+  text-align: center;
+  font-size: 30px;
+}
+.img-icone {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+figcaption {
+  font-weight: 900;
+  text-decoration: none;
+  color: #000000;
+}
+
+.habilidades1 {
+  font-size: 20px;
+  border-radius: 10px;
+  gap: 50px;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  padding: 30px;
+}
+
+.projetos1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.formacao1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.origamid {
+  border-radius: 5px;
+  background: linear-gradient(to left, #fff, #752111);
+  margin-left: 20%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 110px 1fr;
+}
+
+.origamid-p {
+  font-family: "Rampart One", cursive;
+  font-size: 10px;
+  align-items: center;
+}
+
+.img-formacao {
+  border-radius: 5px;
+  border: solid 1px white;
+}
+
+.fig {
+  text-decoration: none;
+}
+
+.img-projeto {
+  border-radius: 5px;
+  padding: 15px;
+  background: linear-gradient(to right, #752111, #ffffff);
+}
+
+.img-projeto2:hover{
+transform: scale(1.07);
+
+}
+
+.form1 {
+  justify-content: center;
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+.img-projeto:hover {
+  transform: scale(1.05);
+}
+.img-icone:hover {
+  transform: scale(1.05);
+}
+figcaption:hover {
+  color: white;
+}
+
+.color:hover {
+  color: #2a1612;
+}
