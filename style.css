@@ -135,6 +135,7 @@ form label {
 
 form input,
 form textarea {
+  background: linear-gradient(to left, #fff, #752111);
   margin-bottom: 20px;
   padding: 10px;
   width: 100%;
