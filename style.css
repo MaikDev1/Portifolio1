@@ -10,7 +10,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
 
 body {
-  background: linear-gradient(to left, #fff, #752111);
+  background-color: #b7b7b7b7;
   margin: 0;
   padding: 0;
 }
@@ -63,7 +63,11 @@ body {
   margin-top: 40px;
   border: solid 1px white;
 }
-
+@media (max-width: 900px) {
+  .mk3 {
+    display: none;
+  }
+}
 .color1 {
   color: black;
 }
@@ -135,7 +139,7 @@ form label {
 
 form input,
 form textarea {
-  background: linear-gradient(to left, #fff, #752111);
+background-color: #e7e7e7e7;
   margin-bottom: 20px;
   padding: 10px;
   width: 100%;
@@ -192,8 +196,9 @@ figcaption {
 }
 
 .origamid {
+  width: 700px;
   border-radius: 5px;
-  background: linear-gradient(to left, #fff, #752111);
+background-color: #e7e7e7e7;
   margin-left: 20%;
   padding: 10px;
   display: grid;
@@ -208,22 +213,21 @@ figcaption {
 
 .img-formacao {
   border-radius: 5px;
-  border: solid 1px white;
+  border: solid 1px #e7e7e7e7;
 }
-
 .fig {
+  color:black;
   text-decoration: none;
 }
 
 .img-projeto {
   border-radius: 5px;
   padding: 15px;
-  background: linear-gradient(to right, #752111, #ffffff);
+ background-color: #e7e7e7e7;
 }
 
-.img-projeto2:hover{
-transform: scale(1.07);
-
+.img-projeto2:hover {
+  transform: scale(1.07);
 }
 
 .form1 {
@@ -239,8 +243,8 @@ transform: scale(1.07);
 .img-icone:hover {
   transform: scale(1.05);
 }
-figcaption:hover {
-  color: white;
+.fig:hover {
+  color: #e7e7e7e7
 }
 
 .color:hover {
